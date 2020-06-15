@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background: linear-gradient(rgb(128, 61, 37), rgb(224, 128, 93));
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#survey-form {
+    background: orangered;
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+#name,
+#email,
+#number {
+    width: 650px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+}
+
+#dropdown {
+    width: 680px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+}
+
+#comment {
+    width: 660px;
+    padding: 15px;
+    border: 0;
+    font-size: 16px;
+}
+
+#submit {
+    width: 690px;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: green;
+    color: #fff;
+}
+
+#submit:hover {
+    background: #fff;
+    color: green;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+@media(max-width:768px) {
+    #survey-form {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    #name,
+    #email,
+    #number,
+    #comment,
+    #submit {
+        width: 90%;
+        padding: 10px;
+    }
+    #dropdown,
+    #submit {
+        width: 95%;
+        padding: 10px;
+    }
+    #title {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    #description {
+        font-size: 20px;
+    }
+}

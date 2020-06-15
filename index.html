@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 id="title">Student Survey Form</h1>
+    <p id="description">
+        Thank you for taking the time to help us improve this platform
+    </p>
+
+    <form action="" id="survey-form">
+
+        <label for="name" id="name-label">
+        <p>Name</p>
+      </label>
+        <input type="text" id="name" placeholder="Enter Your Name" required />
+
+        <label for="email" id="email-label">
+        <p>Email</p>
+      </label>
+        <input type="email" id="email" placeholder="Enter Your Email" required />
+
+        <label for="number" id="number-label">
+        <p>Age</p>
+      </label>
+        <input type="number" id="number" placeholder="Enter Your Age" min="12" max="50" required />
+
+
+        <p>Which programming language is your favourite?</p>
+
+        <select name="dropdown" id="dropdown">
+        <option value="default">Select from the options</option>
+        <option value="Hypertext Markup Language"
+          >Hypertext Markup Language(HTML)</option
+        >
+        <option value="Cascading Style Sheet"
+          >Cascading Style Sheet(CSS)</option
+        >
+        <option value="Javascript">Javascript</option>
+        <option value="Hypertext Preprocessor"
+          >Hypertext Preprocessor(PHP)</option
+        >
+        <option value="Java">Java</option>
+        <option value="C#">C#</option>
+        <option value="C++">C++</option>
+      </select>
+
+        <p>How much experience do you have in programming?</p>
+        <input type="radio" name="experience" id="" value="1" checked>Beginner</input>
+        <br>
+        <input type="radio" name="experience" id="" value="2">Intermediate</input>
+        <br>
+        <input type="radio" name="experience" id="" value="3">Senior</input>
+        <br>
+        <input type="radio" name="experience" id="" value="4">Expert</input>
+
+        <p>Why do you choose programming as a career?(Select multiple answers)</p>
+        <input type="checkbox" name="carrer" id="carrer" value="1">To have opportunities without a college degree</input>
+        <br>
+        <input type="checkbox" name="carrer" id="carrer" value="2">To be in demand</input>
+        <br>
+        <input type="checkbox" name="carrer" id="carrer" value="3">To help solve problems that are affecting you and others</input>
+        <br>
+        <input type="checkbox" name="carrer" id="carrer" value="4">Beacuse you have fun</input>
+        <br>
+        <input type="checkbox" name="carrer" id="carrer" value="5">Others</input>
+
+        <p>Any comments?</p>
+        <textarea name="" id="comment" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>
+        <br>
+        <input type="submit" id="submit" value="submit">
+
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
